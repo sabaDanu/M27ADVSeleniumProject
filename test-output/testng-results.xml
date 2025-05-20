@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-13T14:09:25 IST" name="Suite" finished-at="2025-05-13T14:09:40 IST" duration-ms="14985">
+    <groups>
+      <group name="SmokeSuite">
+        <method signature="AddProductToCartNewTest.tc_01_AddProductTocartTest()[pri:0, instance:AddProductTocart.AddProductToCartNewTest@158a8276]" name="tc_01_AddProductTocartTest" class="AddProductTocart.AddProductToCartNewTest"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test started-at="2025-05-13T14:09:25 IST" name="Test" finished-at="2025-05-13T14:09:40 IST" duration-ms="14985">
+      <class name="AddProductTocart.AddProductToCartNewTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:AddProductTocart.AddProductToCartNewTest@158a8276]" started-at="2025-05-13T14:09:25 IST" name="bsConfig" finished-at="2025-05-13T14:09:25 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:AddProductTocart.AddProductToCartNewTest@158a8276]" started-at="2025-05-13T14:09:26 IST" name="bcConfig" finished-at="2025-05-13T14:09:30 IST" duration-ms="4569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:AddProductTocart.AddProductToCartNewTest@158a8276]" started-at="2025-05-13T14:09:30 IST" name="bmConfig" finished-at="2025-05-13T14:09:31 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="sampleTest()[pri:0, instance:AddProductTocart.AddProductToCartNewTest@158a8276]" started-at="2025-05-13T14:09:31 IST" name="sampleTest" finished-at="2025-05-13T14:09:31 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:AddProductTocart.AddProductToCartNewTest@158a8276]" started-at="2025-05-13T14:09:31 IST" name="amConfig" finished-at="2025-05-13T14:09:32 IST" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:AddProductTocart.AddProductToCartNewTest@158a8276]" started-at="2025-05-13T14:09:32 IST" name="bmConfig" finished-at="2025-05-13T14:09:32 IST" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="tc_01_AddProductTocartTest()[pri:0, instance:AddProductTocart.AddProductToCartNewTest@158a8276]" started-at="2025-05-13T14:09:32 IST" name="tc_01_AddProductTocartTest" finished-at="2025-05-13T14:09:34 IST" duration-ms="1398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_01_AddProductTocartTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:AddProductTocart.AddProductToCartNewTest@158a8276]" started-at="2025-05-13T14:09:34 IST" name="amConfig" finished-at="2025-05-13T14:09:34 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:AddProductTocart.AddProductToCartNewTest@158a8276]" started-at="2025-05-13T14:09:34 IST" name="acConfig" finished-at="2025-05-13T14:09:35 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:AddProductTocart.AddProductToCartNewTest@158a8276]" started-at="2025-05-13T14:09:41 IST" name="asConfig" finished-at="2025-05-13T14:09:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- AddProductTocart.AddProductToCartNewTest -->
+      <class name="AddProductTocart.AddLowestPriceProductTocartTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:AddProductTocart.AddLowestPriceProductTocartTest@7530ad9c]" started-at="2025-05-13T14:09:35 IST" name="bcConfig" finished-at="2025-05-13T14:09:38 IST" duration-ms="3584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:AddProductTocart.AddLowestPriceProductTocartTest@7530ad9c]" started-at="2025-05-13T14:09:38 IST" name="bmConfig" finished-at="2025-05-13T14:09:39 IST" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="tc_02_AddLowestPriceProductToCartTest()[pri:0, instance:AddProductTocart.AddLowestPriceProductTocartTest@7530ad9c]" started-at="2025-05-13T14:09:39 IST" name="tc_02_AddLowestPriceProductToCartTest" finished-at="2025-05-13T14:09:40 IST" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_02_AddLowestPriceProductToCartTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:AddProductTocart.AddLowestPriceProductTocartTest@7530ad9c]" started-at="2025-05-13T14:09:40 IST" name="amConfig" finished-at="2025-05-13T14:09:40 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:AddProductTocart.AddLowestPriceProductTocartTest@7530ad9c]" started-at="2025-05-13T14:09:40 IST" name="acConfig" finished-at="2025-05-13T14:09:40 IST" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- AddProductTocart.AddLowestPriceProductTocartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
