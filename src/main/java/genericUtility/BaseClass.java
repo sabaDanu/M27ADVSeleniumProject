@@ -3,6 +3,7 @@ package genericUtility;
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
@@ -39,7 +40,7 @@ public class BaseClass {
 	public void bcConfig(/*String pValue*/) throws IOException
 	{
 		String URL = fUtil.readDataFromPropertyFile("url");
-		driver = new EdgeDriver();
+		driver = new ChromeDriver();
 
 		/*if(pValue.equals("edge")) {
 			driver=new EdgeDriver();
