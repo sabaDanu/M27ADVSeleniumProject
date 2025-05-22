@@ -40,7 +40,8 @@ public class BaseClass {
 	public void bcConfig(/*String pValue*/) throws IOException
 	{
 		String URL = fUtil.readDataFromPropertyFile("url");
-		driver = new ChromeDriver();
+		driver =new EdgeDriver();
+		//driver = new ChromeDriver();
 
 		/*if(pValue.equals("edge")) {
 			driver=new EdgeDriver();
